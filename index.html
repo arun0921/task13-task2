@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>
+                calculator
+            </h1>
+        </div>
+    </center>
+    <div class="calculator">
+        <div class="screen" id="screen">0</div>
+        <button onclick="addToScreen('7')">7</button>
+        <button onclick="addToScreen('8')">8</button>
+        <button onclick="addToScreen('9')">9</button>
+        <button class="operator" onclick="addToScreen('+')">+</button>
+        <br>
+        <button onclick="addToScreen('4')">4</button>
+        <button onclick="addToScreen('5')">5</button>
+        <button onclick="addToScreen('6')">6</button>
+        <button class="operator" onclick="addToScreen('-')">-</button>
+        <br>
+        <button onclick="addToScreen('1')">1</button>
+        <button onclick="addToScreen('2')">2</button>
+        <button onclick="addToScreen('3')">3</button>
+        <button class="operator" onclick="addToScreen('*')">&times;</button>
+        <br>
+        <button onclick="addToScreen('0')">0</button>
+        <button onclick="addToScreen('.')">.</button>
+        <button class="operator clear" onclick="clearScreen()">C</button>
+        <button class="operator" onclick="addToScreen('/')">&divide;</button>
+        <br>
+        <button class="operator" onclick="calculate()">=</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

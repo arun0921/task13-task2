@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(106, 134, 131);
+    background-image: url(https://img.freepik.com/premium-vector/open-book-icons-mathematics_74440-842.jpg?w=2000);
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #64b7cc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.calculator .screen {
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.calculator button {
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.calculator button.operator {
+    background-color: #1d5777;
+    color: #fff;
+}
+
+.calculator button.clear {
+    background-color: #d9534f;
+    color: #fff;
+}
